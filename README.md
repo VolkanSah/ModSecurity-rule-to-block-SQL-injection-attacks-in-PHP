@@ -15,7 +15,7 @@ Note that ModSecurity is a complex and powerful tool, and you may need to custom
 
 Here's an example ModSecurity rule to block SQL injection attacks in PHP:
 
-```rust
+```perl
 SecRule REQUEST_FILENAME "\.php$" \
     "id:1,\
      phase:2,\
@@ -33,5 +33,4 @@ SecRule ARGS "(select|union|from|where|having|order by|group by)" \
      status:403,\
      log,\
      msg:'SQL injection attempt'"
-     ```
 
