@@ -1,4 +1,4 @@
-# ModSecurity-rule-to-block-SQL-injection-attacks-in-PHP
+# ModSecurity rule to block-SQL injection attacks in PHP
 ModSecurity is an open source web application firewall that can help protect your PHP applications from a variety of attacks, including cross-site scripting (XSS), SQL injection, and other common web exploits. Here's a basic overview of how to implement ModSecurity in your PHP files:
 
 Install and configure ModSecurity on your web server.
