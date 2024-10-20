@@ -2,6 +2,8 @@
 # ModSecurity Rule to Block SQL Injection Attacks in PHP
 ###### Updated 2024
 
+Tipps: [ModSecurity Webserver Protection Guide](https://github.com/VolkanSah/ModSecurity-Webserver-Protection-Guide/)
+
 ModSecurity is an open-source web application firewall (WAF) that can protect your PHP applications from a variety of attacks, including SQL injection, cross-site scripting (XSS), and other common web exploits.
 
 ## Installation and Configuration of ModSecurity
